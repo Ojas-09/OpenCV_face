@@ -1,6 +1,5 @@
 import cv2
 
-# This will work instantly on OpenCV 4!
 cascade_path = "haarcascade_frontalface_default.xml"
 face_cascade = cv2.CascadeClassifier(cascade_path)
 
